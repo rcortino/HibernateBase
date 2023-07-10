@@ -22,10 +22,10 @@ public class EntityQuery<T> {
 
     @Autowired
     private SessionFactory sessionFactory;
-    private Session session;
-    private CriteriaBuilder criteriaBuilder;
-    private CriteriaQuery<T> criteriaQuery;
-    private Root<T> root;
+    private final Session session;
+    private final CriteriaBuilder criteriaBuilder;
+    private final  CriteriaQuery<T> criteriaQuery;
+    private final Root<T> root;
 
     public EntityQuery(Class<T> tClass, SessionFactory sessionFactory) {
         this.tClass = tClass;
@@ -34,14 +34,6 @@ public class EntityQuery<T> {
         criteriaBuilder = session.getCriteriaBuilder();
         criteriaQuery = criteriaBuilder.createQuery(tClass);
         root = criteriaQuery.from(tClass);
-    }
-
-    public CriteriaBuilder getCriteriaBuilder() {
-        return criteriaBuilder;
-    }
-
-    public Root<T> getRoot() {
-        return root;
     }
 
     @Transactional

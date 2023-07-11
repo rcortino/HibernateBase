@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8114b25f-98ad-4584-a5eb-aad18b50cf12" name="Changes" comment="Initial Commit &#10;- a sub project that creates a simple to use way of working with hibernate.  &#10;- Several different parameter types are included to allow querying the database in different ways.  As more are needed, they can be added here and the EntityQuery will be capable of using them.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/EntityQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/BetweenParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/EqualParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/GreaterEqualParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/GreaterThanParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/LessEqualParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/LessThanParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/Param.java" afterDir="false" />
+    <list default="true" id="8114b25f-98ad-4584-a5eb-aad18b50cf12" name="Changes" comment="some minor tweaks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skapps/hibernate/params/LikeParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +38,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "baed4595aff1bab2b853995d0ac72562"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,8 +50,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689003577273</updated>
-      <workItem from="1689003578966" duration="4833000" />
+      <workItem from="1689003578966" duration="5096000" />
+      <workItem from="1689067792587" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit &#10;- a sub project that creates a simple to use way of working with hibernate.  &#10;- Several different parameter types are included to allow querying the database in different ways.  As more are needed, they can be added here and the EntityQuery will be capable of using them.">
+      <created>1689015770651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689015770651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="some minor tweaks">
+      <created>1689015916894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689015916894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit &#10;- a sub project that creates a simple to use way of working with hibernate.  &#10;- Several different parameter types are included to allow querying the database in different ways.  As more are needed, they can be added here and the EntityQuery will be capable of using them." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit &#10;- a sub project that creates a simple to use way of working with hibernate.  &#10;- Several different parameter types are included to allow querying the database in different ways.  As more are needed, they can be added here and the EntityQuery will be capable of using them." />
+    <MESSAGE value="some minor tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="some minor tweaks" />
   </component>
 </project>
